@@ -15,7 +15,7 @@ const db = require('./config/keys').mongoURI;
 
 // Connect to MongoDB
 mongoose
-  .connect(
+  .connect(//copy
     db,
     { useNewUrlParser: true }
   )
